@@ -1,0 +1,40 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FichasExcelV2
+</name>
+</assembly>
+<members>
+<member name="T:FichasExcelV2.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:FichasExcelV2.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:FichasExcelV2.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:FichasExcelV2.WriteToFile">
+ <summary>
+ Escribir en un txt un texto
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:FichasExcelV2.WriteToFile.WriteToTxt(System.String,System.String)">
+ <summary>
+ Escribe en un fichero de texto el parámetro.
+ </summary>
+ <param name="txtFilePath">Ruta con el nombre del archivo donde escribir</param>
+ <param name="parametro">El texto que se escribirá en el txt</param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>
